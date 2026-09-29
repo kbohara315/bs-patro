@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "kshitij.bs-patro",
+  "name": "Bikram Sambat (BS) Patro",
+  "version": "1.0.0",
+  "author": "Kshitij Bohara",
+  "description": "Lightweight Bikram Sambat date pill for the bar — not a full calendar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Bikram Sambat (BS) Patro",
+    "description": "BS date pill with Nepali/English modes and a both-calendars tooltip",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center",
+    "defaults": {
+      "nepali": false
+    },
+    "schema": [
+      {
+        "key": "nepali",
+        "type": "boolean",
+        "label": "Nepali language",
+        "description": "Nepali month/weekday names with Devanagari digits (the --np mode).",
+        "defaultValue": false
+      }
+    ]
+  }
+}
