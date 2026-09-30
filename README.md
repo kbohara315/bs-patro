@@ -33,3 +33,14 @@ cp -f bs-patro ~/.config/omarchy/bar/scripts/bs-patro
 
 BS month-length table vendored from nepali-date-converter (MIT,
 subeshb1/Nepali-Date). Valid BS 2000–2090.
+
+## Remove
+
+```bash
+omarchy plugin remove kshitij.bs-patro
+```
+
+## Dependencies
+
+The plugin itself: none — pure QML/JS, everything Omarchy ships. The
+standalone C version needs `gcc` to build (libc only).
